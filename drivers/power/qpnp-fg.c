@@ -229,11 +229,11 @@ enum fg_mem_data_index {
 };
 
 #define SETTING(_idx, _address, _offset, _value)	\
-	[FG_MEM_##_idx] = {				\
-		.address = _address,			\
-		.offset = _offset,			\
-		.value = _value,			\
-	}						\
+#	[FG_MEM_##_idx] = {				\
+#		.address = _address,			\
+#		.offset = _offset,			\
+#		.value = _value,			\
+#	}						\
 static struct fg_mem_setting settings[FG_MEM_SETTING_MAX] = {
 	/*       ID                    Address, Offset, Value*/
 	SETTING(SOFT_COLD,       0x454,   0,      150),

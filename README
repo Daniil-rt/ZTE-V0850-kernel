@@ -1,4 +1,4 @@
-Okay guys, postmarketOS is working, but only Weston UI work, no other. I don't know, if can I support it later.. So, if you want help, fork this repository!
+Trying to fix framebuffer, because even Weston not working now.
 
 There is original README file        
 --------------------------------        

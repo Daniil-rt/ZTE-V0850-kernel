@@ -936,7 +936,7 @@ endif
 ifdef CONFIG_BUILD_DOCSRC
 	$(Q)$(MAKE) $(build)=Documentation
 endif
-	+$(call if_changed,link-vmlinux)
+#	+$(call if_changed,link-vmlinux)
 
 # The actual objects are generated when descending,
 # make sure no implicit rule kicks in

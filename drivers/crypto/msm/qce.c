@@ -28,7 +28,7 @@
 #include <crypto/sha.h>
 #include <linux/qcedev.h>
 #include <linux/qcota.h>
-#include "../arm/include/asm/mach/dma.h"
+#include "arch/arm/include/asm/mach/dma.h"
 
 #include "qce.h"
 #include "qcryptohw_30.h"

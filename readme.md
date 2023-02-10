@@ -1,4 +1,4 @@
-### Not maintained now
+### No longer supported due to lack of free time and my ZTE is broken (can't boot and very short battery life).
 
 
 🤨📸
